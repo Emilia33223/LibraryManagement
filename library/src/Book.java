@@ -9,8 +9,9 @@ public class Book extends LibraryMedia{
 
     }
 
+    @Override
 
-    public void displayInformation(){
+    public void super.displayInformation(){
         System.out.println("Author: " + author);
         System.out.println("Number of pages: " + numberOfPages);
 
