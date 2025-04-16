@@ -10,6 +10,17 @@ public class Book extends LibraryMedia{
     }
 
 
+    public void displayInformation(){
+        System.out.println("Author: " + author);
+        System.out.println("Number of pages: " + numberOfPages);
+
+    }
+
+
+
+
+
+
 
 
 
