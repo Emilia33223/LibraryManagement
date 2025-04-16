@@ -30,7 +30,7 @@ public class LibraryMedia {
             System.out.println( title + "has not been returned");
         }
 
-        public void displayInformation(){
+       public void displayInformation(){
             String status = available ? "Avaliable" : "Borrowed";
             System.out.println("Title: " + title);
             System.out.println("Publication Year: " + publicationYear);
